@@ -1,0 +1,26 @@
+Steps to initiate empty local git repository
+
+-> Init
+# git init
+
+-> User details
+# git config user.name "Ragul"
+# git config user.email "suriyasuri808@gmail.com"
+
+-> To add file (Staging)
+# git add .
+
+-> To commit the file
+# git commit -m "Any message"
+
+-> To connect remote repo with local git
+# git remote add origin https://xyz....
+
+-> To check remote repo url
+# git remote -v
+
+-> To change branch name
+# git branch -M main
+
+-> To push
+# git push origin main
